@@ -84,7 +84,7 @@ jobs:
 
           push: true
 
-          tags: ghcr.io/ANGELAALONME/tos:latest
+          tags: ghcr.io/angelaalonme/tos:latest
   deploy:
 
     needs: verify-and-package
